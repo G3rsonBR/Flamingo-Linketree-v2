@@ -14,8 +14,8 @@
     --black-500: #121212;
     --gray-500: #444444;
     --gray-300: #A7A7A7;
-    --purple-200: #c498fa;
-    --purple-300: #BB86FC;
+    --purple-500: #8865b3;
+    --purple-600: #7a53a7;
 }
 
 body {
@@ -55,7 +55,7 @@ a button {
 button {
     color: var(--white);
     font-weight: 700;
-    background-color: var(--purple-300);
+    background-color: var(--purple-600);
     border: none;
     border-radius: 8px;
     padding: 15px;
@@ -63,7 +63,7 @@ button {
 }
 
 button:hover { 
-    background-color: var(--purple-200);
+    background-color: var(--purple-500);
 }
 
 .box_header {
@@ -101,7 +101,7 @@ h4 {
 img {
     width: 120px;
     border-radius: 50%;
-    border: 3px solid var(--purple-300);
+    border: 3px solid var(--purple-600);
 }
 
 .user_data {
@@ -145,7 +145,7 @@ footer {
 }
 
 footer > a {
-    color: var(--purple-300);
+    color: var(--purple-600);
     font-weight: 700;
     font-size: .8rem;
 }
